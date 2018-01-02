@@ -16,7 +16,10 @@ function filterDataTitleByTagAttribute(id, tag, attr) {
 
 // Run javascript after DOM is initialized
 $(document).ready(function () {
-  // $('#search-photo').filterDataTitleByTagAttribute("search-photo", "a", "data-title");
+  // try to get the input without HideSeek
+  // $('#search-photo')
+  //   .trigger('change')
+  //   .filterDataTitleByTagAttribute("search-photo", "a", "data-title");
   
   $('#search-photo').hideseek();
 
