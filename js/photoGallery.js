@@ -16,6 +16,8 @@ function filterDataTitleByTagAttribute(id, tag, attr) {
 
 // Run javascript after DOM is initialized
 $(document).ready(function () {
+  // $('#search-photo').filterDataTitleByTagAttribute("search-photo", "a", "data-title");
+  
   $('#search-photo').hideseek();
 
   $('#search-photo').on("_after", function () {
